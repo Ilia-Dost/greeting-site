@@ -14,7 +14,7 @@ export default function Home() {
             <section className="relative z-10 flex min-h-screen items-center justify-center px-6 py-16">
                 <div className="w-full max-w-3xl text-center">
 
-                    {/* Logo / Icon */}
+                    {/* Logo */}
                     <div className="mx-auto mb-7 flex h-24 w-24 items-center justify-center rounded-[2rem] bg-white/80 text-5xl shadow-xl backdrop-blur">
                         🎁
                     </div>
@@ -38,7 +38,7 @@ export default function Home() {
                         فقط لینک رو باز کن و سورپرایز رو شروع کن 🎀
                     </p>
 
-                    {/* CTA */}
+                    {/* Buttons */}
                     <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                         <Link
                             href="/birthday/demo"
@@ -60,9 +60,11 @@ export default function Home() {
 
                         <div className="rounded-3xl border border-white/70 bg-white/60 p-6 shadow-lg backdrop-blur">
                             <div className="text-3xl">🎵</div>
+
                             <h2 className="mt-3 font-black text-gray-800">
                                 موسیقی
                             </h2>
+
                             <p className="mt-2 text-sm leading-6 text-gray-500">
                                 یک آهنگ مخصوص برای فضای تبریک
                             </p>
@@ -70,9 +72,11 @@ export default function Home() {
 
                         <div className="rounded-3xl border border-white/70 bg-white/60 p-6 shadow-lg backdrop-blur">
                             <div className="text-3xl">📸</div>
+
                             <h2 className="mt-3 font-black text-gray-800">
                                 عکس شخصی
                             </h2>
+
                             <p className="mt-2 text-sm leading-6 text-gray-500">
                                 عکس و پیام مخصوص هر شخص
                             </p>
@@ -80,9 +84,11 @@ export default function Home() {
 
                         <div className="rounded-3xl border border-white/70 bg-white/60 p-6 shadow-lg backdrop-blur">
                             <div className="text-3xl">📱</div>
+
                             <h2 className="mt-3 font-black text-gray-800">
                                 QR Code
                             </h2>
+
                             <p className="mt-2 text-sm leading-6 text-gray-500">
                                 قابل اشتراک‌گذاری با یک اسکن ساده
                             </p>
@@ -90,8 +96,31 @@ export default function Home() {
 
                     </div>
 
+                    {/* Contact */}
+                    <div className="mx-auto mt-12 max-w-md rounded-3xl border border-white/70 bg-white/60 p-6 shadow-lg backdrop-blur">
+                        <div className="text-3xl">💬</div>
+
+                        <h2 className="mt-3 text-lg font-black text-gray-800">
+                            راه ارتباطی
+                        </h2>
+
+                        <p className="mt-2 text-sm leading-7 text-gray-500">
+                            برای ساخت تبریک اختصاصی یا ارتباط با من،
+                            می‌تونی از طریق تلگرام پیام بدی.
+                        </p>
+
+                        <a
+                            href="https://t.me/ily4_CFZ"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="mt-5 inline-flex items-center gap-2 rounded-2xl bg-[#229ED9] px-6 py-3 font-bold text-white shadow-lg transition duration-300 hover:-translate-y-1 hover:shadow-xl active:scale-95"
+                        >
+                            💬 @ily4_CFZ
+                        </a>
+                    </div>
+
                     {/* Footer */}
-                    <p className="mt-14 text-xs text-gray-400">
+                    <p className="mt-10 text-xs text-gray-400">
                         با عشق ساخته شده ❤️
                     </p>
 
