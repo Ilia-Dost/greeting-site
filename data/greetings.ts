@@ -26,4 +26,13 @@ export const greetings: Greeting[] = [
         image: "/images/ali.jpg",
         music: "/music/ali.mp3",
     },
+    {
+        id: "aliakbar",
+        name: "خمینی",
+        title: "کلیک کن",
+        message:
+            "عشق مایی خمینی",
+        image: "/images/aaa.png",
+        music: "/music/ali.mp3",
+    },
 ];
