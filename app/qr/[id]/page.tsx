@@ -17,9 +17,7 @@ export default async function QRPage({ params }: Props) {
         notFound();
     }
 
-    const baseUrl = "https://greeting-site-qouoqh6c5-ilias-projects-a3debeba.vercel.app";
-
-    const greetingUrl = `${baseUrl}/birthday/${greeting.id}`;
+    const greetingUrl = `/birthday/${greeting.id}`;
 
     return (
         <main
@@ -38,8 +36,7 @@ export default async function QRPage({ params }: Props) {
                 </p>
 
                 <div className="mt-8 flex justify-center">
-                    <QRCode value={greetingUrl} />
-                </div>
+                    <QRCode path={`/birthday/${greeting.id}`} />                </div>
 
                 <p className="mt-6 break-all text-xs text-gray-400">
                     {greetingUrl}
