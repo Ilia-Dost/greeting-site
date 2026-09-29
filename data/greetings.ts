@@ -19,7 +19,7 @@ export const greetings: Greeting[] = [
     },
     {
         id: "ali",
-        name: "دوست عزیز",
+        name: "علی",
         title: "کلیک کن",
         message:
             "شماره کارت بدم یا پخش کنم؟😉",
